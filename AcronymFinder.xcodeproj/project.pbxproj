@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0013BAA662226902008400F8 /* libPods-AcronymFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 655343E8B6DB6F14924E3432 /* libPods-AcronymFinderTests.a */; };
 		2235D870BE06116F13ED53D6 /* libPods-AcronymFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EE0AD0EEDF11A30254E341 /* libPods-AcronymFinder.a */; };
 		A6BA94441E33FEE800CCBD68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA94431E33FEE800CCBD68 /* main.m */; };
 		A6BA94471E33FEE800CCBD68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA94461E33FEE800CCBD68 /* AppDelegate.m */; };
 		A6BA944F1E33FEE800CCBD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BA944E1E33FEE800CCBD68 /* Assets.xcassets */; };
 		A6BA94521E33FEE800CCBD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BA94501E33FEE800CCBD68 /* LaunchScreen.storyboard */; };
-		A6BA945D1E33FEE800CCBD68 /* AcronymFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA945C1E33FEE800CCBD68 /* AcronymFinderTests.m */; };
 		A6BA946A1E34015F00CCBD68 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA94691E34015F00CCBD68 /* SearchViewController.m */; };
 		A6BA946D1E3401F700CCBD68 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BA946C1E3401F700CCBD68 /* SearchViewController.xib */; };
 		A6F32F791E341A61009C8D39 /* UIColor+ProjectColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F32F781E341A61009C8D39 /* UIColor+ProjectColors.m */; };
@@ -23,16 +21,6 @@
 		A6F32F941E355A48009C8D39 /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F32F931E355A48009C8D39 /* AlertManager.m */; };
 		A6F32F981E355A58009C8D39 /* AcronymTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F32F971E355A58009C8D39 /* AcronymTableViewDataSource.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A6BA94591E33FEE800CCBD68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A6BA94371E33FEE800CCBD68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6BA943E1E33FEE800CCBD68;
-			remoteInfo = AcronymFinder;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		11A5292C23033F73849B2EA5 /* Pods-AcronymFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,9 +34,6 @@
 		A6BA944E1E33FEE800CCBD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6BA94511E33FEE800CCBD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6BA94531E33FEE800CCBD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6BA94581E33FEE800CCBD68 /* AcronymFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcronymFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6BA945C1E33FEE800CCBD68 /* AcronymFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcronymFinderTests.m; sourceTree = "<group>"; };
-		A6BA945E1E33FEE800CCBD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6BA94681E34015F00CCBD68 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ViewControllers/SearchViewController.h; sourceTree = "<group>"; };
 		A6BA94691E34015F00CCBD68 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ViewControllers/SearchViewController.m; sourceTree = "<group>"; };
 		A6BA946C1E3401F700CCBD68 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchViewController.xib; path = Views/SearchViewController.xib; sourceTree = "<group>"; };
@@ -74,14 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2235D870BE06116F13ED53D6 /* libPods-AcronymFinder.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6BA94551E33FEE800CCBD68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0013BAA662226902008400F8 /* libPods-AcronymFinderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				A6BA94411E33FEE800CCBD68 /* AcronymFinder */,
-				A6BA945B1E33FEE800CCBD68 /* AcronymFinderTests */,
 				A6BA94401E33FEE800CCBD68 /* Products */,
 				2D0A3096B6183858E357E094 /* Pods */,
 				28E54C1BBFAADDB268097831 /* Frameworks */,
@@ -123,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				A6BA943F1E33FEE800CCBD68 /* AcronymFinder.app */,
-				A6BA94581E33FEE800CCBD68 /* AcronymFinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,15 +129,6 @@
 				A6BA94431E33FEE800CCBD68 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A6BA945B1E33FEE800CCBD68 /* AcronymFinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				A6BA945C1E33FEE800CCBD68 /* AcronymFinderTests.m */,
-				A6BA945E1E33FEE800CCBD68 /* Info.plist */,
-			);
-			path = AcronymFinderTests;
 			sourceTree = "<group>";
 		};
 		A6BA94671E34004400CCBD68 /* ViewControllers */ = {
@@ -252,27 +218,6 @@
 			productReference = A6BA943F1E33FEE800CCBD68 /* AcronymFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6BA94571E33FEE800CCBD68 /* AcronymFinderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A6BA94641E33FEE800CCBD68 /* Build configuration list for PBXNativeTarget "AcronymFinderTests" */;
-			buildPhases = (
-				597CC809940B6B11B2C3823B /* [CP] Check Pods Manifest.lock */,
-				A6BA94541E33FEE800CCBD68 /* Sources */,
-				A6BA94551E33FEE800CCBD68 /* Frameworks */,
-				A6BA94561E33FEE800CCBD68 /* Resources */,
-				6F5971723C0ADBE473EB2406 /* [CP] Embed Pods Frameworks */,
-				5591B3F0C4A21826C68F9D5C /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A6BA945A1E33FEE800CCBD68 /* PBXTargetDependency */,
-			);
-			name = AcronymFinderTests;
-			productName = AcronymFinderTests;
-			productReference = A6BA94581E33FEE800CCBD68 /* AcronymFinderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -284,10 +229,6 @@
 				TargetAttributes = {
 					A6BA943E1E33FEE800CCBD68 = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					A6BA94571E33FEE800CCBD68 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = A6BA943E1E33FEE800CCBD68;
 					};
 				};
 			};
@@ -305,7 +246,6 @@
 			projectRoot = "";
 			targets = (
 				A6BA943E1E33FEE800CCBD68 /* AcronymFinder */,
-				A6BA94571E33FEE800CCBD68 /* AcronymFinderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,13 +258,6 @@
 				A6BA94521E33FEE800CCBD68 /* LaunchScreen.storyboard in Resources */,
 				A6BA944F1E33FEE800CCBD68 /* Assets.xcassets in Resources */,
 				A6BA946D1E3401F700CCBD68 /* SearchViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6BA94561E33FEE800CCBD68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,51 +294,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5591B3F0C4A21826C68F9D5C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcronymFinderTests/Pods-AcronymFinderTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		597CC809940B6B11B2C3823B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6F5971723C0ADBE473EB2406 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcronymFinderTests/Pods-AcronymFinderTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		ECEBA1DAB85B10876B754202 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,23 +328,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6BA94541E33FEE800CCBD68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6BA945D1E33FEE800CCBD68 /* AcronymFinderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A6BA945A1E33FEE800CCBD68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A6BA943E1E33FEE800CCBD68 /* AcronymFinder */;
-			targetProxy = A6BA94591E33FEE800CCBD68 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A6BA94501E33FEE800CCBD68 /* LaunchScreen.storyboard */ = {
@@ -580,32 +452,6 @@
 			};
 			name = Release;
 		};
-		A6BA94651E33FEE800CCBD68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC25839591A6DB14481BD86E /* Pods-AcronymFinderTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AcronymFinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anagac.AcronymFinderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronymFinder.app/AcronymFinder";
-			};
-			name = Debug;
-		};
-		A6BA94661E33FEE800CCBD68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD5C4B266302D35C82715EE4 /* Pods-AcronymFinderTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AcronymFinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anagac.AcronymFinderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronymFinder.app/AcronymFinder";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -623,15 +469,6 @@
 			buildConfigurations = (
 				A6BA94621E33FEE800CCBD68 /* Debug */,
 				A6BA94631E33FEE800CCBD68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A6BA94641E33FEE800CCBD68 /* Build configuration list for PBXNativeTarget "AcronymFinderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6BA94651E33FEE800CCBD68 /* Debug */,
-				A6BA94661E33FEE800CCBD68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
