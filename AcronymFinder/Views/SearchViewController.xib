@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController">
+            <connections>
+                <outlet property="noResultsLabel" destination="YGN-0X-alG" id="nRa-yM-PST"/>
+                <outlet property="searchBar" destination="vTd-dd-YuC" id="ldB-6d-F9W"/>
+                <outlet property="tableView" destination="mpq-kw-gX7" id="bNv-ee-nmr"/>
+                <outlet property="view" destination="iN0-l3-epB" id="q8t-fl-zij"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="Enter acronym e.g. FBI" translatesAutoresizingMaskIntoConstraints="NO" id="vTd-dd-YuC">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="YAu-gy-DD6"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mpq-kw-gX7">
+                    <rect key="frame" x="0.0" y="44" width="600" height="492"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGN-0X-alG">
+                    <rect key="frame" x="261" y="258" width="78" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="mpq-kw-gX7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0SD-QV-KcA"/>
+                <constraint firstItem="vTd-dd-YuC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3k8-52-ZCK"/>
+                <constraint firstItem="YGN-0X-alG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7D5-HB-l8P"/>
+                <constraint firstAttribute="trailing" secondItem="mpq-kw-gX7" secondAttribute="trailing" id="NG9-QN-cjY"/>
+                <constraint firstItem="vTd-dd-YuC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WGW-NR-2FF"/>
+                <constraint firstAttribute="bottom" secondItem="mpq-kw-gX7" secondAttribute="bottom" id="jan-ce-NHO"/>
+                <constraint firstItem="YGN-0X-alG" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="kJC-lM-Q7J"/>
+                <constraint firstAttribute="trailing" secondItem="vTd-dd-YuC" secondAttribute="trailing" id="lbD-qV-dnm"/>
+                <constraint firstItem="mpq-kw-gX7" firstAttribute="top" secondItem="vTd-dd-YuC" secondAttribute="bottom" id="pQx-zT-0fv"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="Fn9-cs-8Zp" appends="YES" id="zuh-zV-0qK"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="208"/>
+        </view>
+        <tapGestureRecognizer id="Fn9-cs-8Zp">
+            <connections>
+                <action selector="viewTapped:" destination="-1" id="s89-FC-D93"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
