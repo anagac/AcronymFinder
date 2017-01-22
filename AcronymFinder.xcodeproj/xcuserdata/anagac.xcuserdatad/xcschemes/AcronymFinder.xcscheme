@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A6BA943E1E33FEE800CCBD68"
-               BuildableName = "AcronymFinder.app"
-               BlueprintName = "AcronymFinder"
+               BuildableName = "Acronym Finder.app"
+               BlueprintName = "Acronym Finder"
                ReferencedContainer = "container:AcronymFinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A6BA943E1E33FEE800CCBD68"
-            BuildableName = "AcronymFinder.app"
-            BlueprintName = "AcronymFinder"
+            BuildableName = "Acronym Finder.app"
+            BlueprintName = "Acronym Finder"
             ReferencedContainer = "container:AcronymFinder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A6BA943E1E33FEE800CCBD68"
-            BuildableName = "AcronymFinder.app"
-            BlueprintName = "AcronymFinder"
+            BuildableName = "Acronym Finder.app"
+            BlueprintName = "Acronym Finder"
             ReferencedContainer = "container:AcronymFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A6BA943E1E33FEE800CCBD68"
-            BuildableName = "AcronymFinder.app"
-            BlueprintName = "AcronymFinder"
+            BuildableName = "Acronym Finder.app"
+            BlueprintName = "Acronym Finder"
             ReferencedContainer = "container:AcronymFinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -27,7 +27,7 @@
 		241992FBE39C3713490380EA /* Pods-AcronymFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder.release.xcconfig"; sourceTree = "<group>"; };
 		655343E8B6DB6F14924E3432 /* libPods-AcronymFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcronymFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EE0AD0EEDF11A30254E341 /* libPods-AcronymFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcronymFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6BA943F1E33FEE800CCBD68 /* AcronymFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcronymFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BA943F1E33FEE800CCBD68 /* Acronym Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acronym Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BA94431E33FEE800CCBD68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6BA94451E33FEE800CCBD68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6BA94461E33FEE800CCBD68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		A6BA94401E33FEE800CCBD68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6BA943F1E33FEE800CCBD68 /* AcronymFinder.app */,
+				A6BA943F1E33FEE800CCBD68 /* Acronym Finder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6BA943E1E33FEE800CCBD68 /* AcronymFinder */ = {
+		A6BA943E1E33FEE800CCBD68 /* Acronym Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6BA94611E33FEE800CCBD68 /* Build configuration list for PBXNativeTarget "AcronymFinder" */;
+			buildConfigurationList = A6BA94611E33FEE800CCBD68 /* Build configuration list for PBXNativeTarget "Acronym Finder" */;
 			buildPhases = (
 				51EA220EA77D791965880AB8 /* [CP] Check Pods Manifest.lock */,
 				A6BA943B1E33FEE800CCBD68 /* Sources */,
@@ -213,9 +213,9 @@
 			);
 			dependencies = (
 			);
-			name = AcronymFinder;
+			name = "Acronym Finder";
 			productName = AcronymFinder;
-			productReference = A6BA943F1E33FEE800CCBD68 /* AcronymFinder.app */;
+			productReference = A6BA943F1E33FEE800CCBD68 /* Acronym Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6BA943E1E33FEE800CCBD68 /* AcronymFinder */,
+				A6BA943E1E33FEE800CCBD68 /* Acronym Finder */,
 			);
 		};
 /* End PBXProject section */
@@ -464,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6BA94611E33FEE800CCBD68 /* Build configuration list for PBXNativeTarget "AcronymFinder" */ = {
+		A6BA94611E33FEE800CCBD68 /* Build configuration list for PBXNativeTarget "Acronym Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6BA94621E33FEE800CCBD68 /* Debug */,
